@@ -23,7 +23,7 @@ public class TesteException1 {
 				array[i] = i;
 				System.out.println(i);
 			}
-		} catch(Exception e) {
+		} catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("Erro pego(catched): "+e);
 		}
 		
